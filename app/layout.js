@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
                 <ul className="nav-list">
                     <Link className="nav-item" href="/">홈</Link>
                     <Link className="nav-item" href="/list">잡화상점</Link>
+                    <Link className="nav-item" href="/cart">장바구니</Link>
                 </ul>
             </nav>
             {children}
